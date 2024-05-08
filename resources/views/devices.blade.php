@@ -5,7 +5,7 @@
         <li>
             {{ $device->name }}
             <ul>
-                @foreach($device->logs as $log)
+                @foreach($device->logs as $log)p
                     <li>
                         {{ $log->log_data }} ({{ $log->log_time }})
                     </li>
